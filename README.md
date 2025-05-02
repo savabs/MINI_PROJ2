@@ -53,15 +53,14 @@
 
 |      | Component       | Details                              |
 | :--- | :-------------- | :----------------------------------- |
-| ⚙️  | **Architecture**  | <ul><li>Multiple model architectures (`model_architecture_1.json` to `model_architecture_4.json`)</li><li>Likely a machine learning project with training configurations</li><li>Best model saved as `best_model.pth`</li></ul> |
+| ⚙️  | **Architecture**  | <ul><li>Multiple model architectures implmented</li><li>Likely a machine learning project with training configurations</li><li>Best model saved as `best_model.pth`</li></ul> |
 | 🔩 | **Code Quality**  | <ul><li>Python-based project</li><li>JSON used for configuration files</li><li>Shell scripts present (`.sh` files)</li></ul> |
 | 📄 | **Documentation** | <ul><li>Multiple training logs (`training_log_*.txt`)</li><li>Error logging implemented (`error_log.txt`)</li><li>No explicit README or documentation files visible</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>No clear external integrations visible</li><li>Possible local data processing pipeline</li></ul> |
+| 🔌 | **Integrations**  | <ul><li>local data processing pipeline</li></ul> |
 | 🧩 | **Modularity**    | <ul><li>Separate files for model architecture and training configs</li><li>Multiple iterations of configurations suggest iterative development</li></ul> |
-| 🧪 | **Testing**       | <ul><li>No explicit test files visible</li><li>Training logs may serve as informal validation</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Training logs may contain performance metrics</li><li>`best_model.pth` suggests model optimization</li></ul> |
-| 🛡️ | **Security**      | <ul><li>No obvious security measures visible</li><li>Potential sensitive data in training logs</li></ul> |
-| 📦 | **Dependencies**  | <ul><li>Python-based, likely using ML libraries (e.g., PyTorch due to `.pth` file)</li><li>JSON parsing required</li></ul> |
+| 🧪 | **Testing**       | <ul><li>Training logs may serve as informal validation</li></ul> |
+| ⚡️  | **Performance**   | <ul><li>Training logs contain performance metrics</li><li>`best_model.pth` suggests model optimization</li></ul> |
+| 📦 | **Dependencies**  | <ul><li>Python-based, using ML libraries (e.g., PyTorch due to `.pth` file)</li><li>JSON parsing required</li></ul> |
 
 ---
 
